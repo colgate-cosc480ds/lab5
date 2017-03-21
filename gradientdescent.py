@@ -1,5 +1,7 @@
 from __future__ import division
 from collections import Counter
+import sys
+sys.path.append('/vagrant/data-science-from-scratch/code/')  
 from linear_algebra import distance, vector_subtract, scalar_multiply
 import math, random
 
